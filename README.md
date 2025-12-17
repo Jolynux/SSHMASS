@@ -30,6 +30,7 @@ Minor adaptations may be required for Linux or WSL environments.
   - varfile.py
   - functions.py
   - main.py
+    
 (this structure may evolve over time)
 
 - The script automatically loads all .xlsx files located in a dedicated directory and converts them into pandas DataFrames.
