@@ -18,8 +18,9 @@ Some may argue that Ansible already provides similar features; however, SSHMASS 
   - paramiko
   - pandas
 - Currently tested on:
+  - Powershell 
   - Visual Studio Code
-  - VSCodium (PowerShell)
+  - VSCodium
 
 Minor adaptations may be required for Linux or WSL environments.
 
