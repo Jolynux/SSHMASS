@@ -11,12 +11,13 @@ It then generates a second .xlsx file used for reporting purposes.
 
 Some may argue that Ansible already provides similar features; however, SSHMASS focuses on simplicity, portability, and lightweight reporting without requiring an agent or complex configuration.
 
-### Requirements
+## Requirements
 
 - Python 3
 - Python libraries:
   - paramiko
   - pandas
+    
 - Currently tested on:
   - Powershell 
   - Visual Studio Code
@@ -24,14 +25,12 @@ Some may argue that Ansible already provides similar features; however, SSHMASS 
 
 Minor adaptations may be required for Linux or WSL environments.
 
-### How it works 
+## How it works 
 
-- The project is currently composed of three Python files:
+- The project is currently composed of three Python files (may evolve over time) :
   - varfile.py
   - functions.py
   - main.py
-    
-(this structure may evolve over time)
 
 - The script automatically loads all .xlsx files located in a dedicated directory and converts them into pandas DataFrames.
 - The DataFrame is dynamically enriched using menu-based input, then parsed to execute SSH commands on each target host.
